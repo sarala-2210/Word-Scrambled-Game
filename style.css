@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+        width: 100%;
+        line-height: 15vh;
+        background-image: linear-gradient(45deg, #FF5A00, #FFAE00);
+    
+    }
+h1{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow:0 1px 0 #efefef,
+                0 2px 0 #efefef,
+                0 3px 0 #efefef,
+                0 4px 0 #efefef,
+                0 30px 5px rgba(0.5,0.5,0,.1);
+            }
+      h2{
+          font-size: 2.5rem;
+      }
+    body{
+
+          background-image: url("./assets/fp.jpg");
+          background-repeat: round;
+          background-size: 100%;
+    }
+    section{
+        height: 85vh;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      
+      
+    button.btn {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
+    button.btn {
+        font-weight: 800;
+        margin: 20px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        color: black;
+        box-shadow: 0 0 20px #000000;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+      
+
+      

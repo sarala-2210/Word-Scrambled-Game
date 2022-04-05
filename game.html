@@ -1,0 +1,52 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href=".\wordScramble.css" type="text/css"/>
+        <title>Word Scramble Game</title>
+      </head>
+    <body>
+     <nav>
+        <h1>Word Scramble Game</h1>
+        <div id="contact">
+          <a target="_blank" href="https://github.com/IAmAlexJohnson"><i class="fab fa-github"></i></a>
+          <a target="_blank" href="https://codepen.io/IAmAlexJohnson/"><i class="fab fa-codepen"></i></a>
+          <a target="_blank" href="https://twitter.com/IAmAlexJohnson"><i class="fab fa-twitter"></i></a>
+        </div>
+      </header>
+        <div id="rules">
+          <p class="lead">Read the instructions carefully to understand the game</p>
+          <ul class="listt">
+            <li>Type in your guess <small>[You can also  click enter after typing guessed word]</small>.</li>
+            <li>If you guess 3 words correctly you will level up</li>
+            <li>If you get a word wrong three times your chances to attempt ares done and Game Over.</li>
+            <li>To play again, restart.</li>
+            <li>There are total 8 levels. As you level difficulty level also increases.</li>
+            <li> 8 levels and you win!</li>
+          </ul>
+          <p>Good luck!</p>
+          <button id="play-btn">Let's Play</button>
+        </div>
+      </nav>
+      <div id="game-container" class="hidden">
+        <p>Level: <span id="level">1</span></p>
+        <p>Score: <span id="score">0</span></p>
+        <p>Attempts: <span id="attempts">0</span></p>
+        <p id="info"></p>
+    
+        <div id="guess-container">
+          <p id="scrambled-word"></p>
+    
+          <input id="user-guess" type="text" placeholder="Enter your guess">
+          <button id="submit">Submit</button>
+          <button id="reset-btn">Reset</button>
+        </div>
+    
+      </div>
+
+    
+    </body>
+    <script lang="text/javascript" src = "wordScramble.js"></script>
+    
+    </html>
