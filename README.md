@@ -1,5 +1,6 @@
 # Word-Scramble-Game
-Word Scrambled Game is a Word Game in which words are jumbled and, 
-one has to guess correct word if ithe guessed word is correct, 
-Score get incremented by 1. If wrong, chances get decremented by 1.
+Word Scramble Solver Strategy Game in HTML5 CSS3 and Javascript.
+word-guessing-game, A game of Scrambled words. Try to unscramble words to score up.'
+If the three consecutive guesses are correct then the game is levelled up.
+If get a word wrong three times the game is over.
 <div><b>Play now and have fun!</b></div>
